@@ -5,8 +5,8 @@ def main():
     with open("input.txt", "r") as f:
         puzzle = f.read().splitlines()
 
-        print("Part one:", part1(puzzle))
-        print("Part two:", part2(puzzle))
+    print("Part one:", part1(puzzle))
+    print("Part two:", part2(puzzle))
 
 
 def elevation(c):
